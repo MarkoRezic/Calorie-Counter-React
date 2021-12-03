@@ -1,0 +1,257 @@
+.home {
+    /* background: linear-gradient(rgb(113, 194, 113), rgb(69, 138, 69)); */  
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.podaci {
+    background-color: #075e54;
+}
+
+.home-sadrzaj {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-logo .fa-apple-alt {
+    font-size: 100px;
+    color: #128c7e;
+}
+
+.home-logo p {
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home-izbor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+
+}
+
+.home-izbor a {
+    background-color: rgb(37, 211, 102);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px #128c7e;
+}
+
+.home-izbor a:hover {
+    cursor: pointer;
+    background-color: rgba(37, 211, 102, 0.8);
+}
+
+.unos-inf {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obavjestenje {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.obavjestenje p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pitanje {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 70%;
+    margin: 30px auto 50px auto;
+}
+
+.pitanje1 {
+    margin-top: 70px;
+}
+
+.info-left {
+    margin-right: 15px;
+}
+
+.info-left .fa-dot-circle {
+    color: #fff;
+}
+
+.info-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info-right-pitanje {
+    margin-bottom: 15px;
+}
+
+.info-right-pitanje p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.spol-izbor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tipka {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(37, 211, 102);
+    overflow: hidden;
+}
+
+.tipka-spol {
+    margin-right: 15px;
+}
+
+.tipka-2 {
+    background-color: rgb(37, 211, 102);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.tipka-link a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff ;
+}
+
+.tipka-no-color a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tipka-link:hover {
+    cursor: pointer;
+    background-color: rgba(37, 211, 102, 0.8);
+}
+
+.tipka:hover {
+    cursor: pointer;
+    background-color: rgba(37, 211, 102, 0.8);
+    color: #fff;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+select {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+select:hover {
+    cursor: pointer;
+    opacity: 0.95;
+}
+
+.unos-inf-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.tipka-no-color {
+    background-color: transparent;
+    color: #fff;
+}
+
+.tipka-no-color:hover {
+    cursor: pointer !important;
+    background-color: transparent !important;
+}
+
+.left-right .fa-circle{
+    margin: 0 3px;
+    font-size: 8px;
+    color: #aaa;
+}
+
+.left-right .bijeli-krug {
+    color: #fff;
+}
+
+.preporucene-kalorije {
+    width: 100%;
+    margin: 70px 0;
+}
+
+.preporucene-kalorije {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preporuka-p p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.preporuka-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.preporuka-content p {
+    margin: 0;
+    margin-right: 15px !important;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.preporuka-content span {
+    font-size: 26px;
+    margin-bottom: 3px;
+    color: #fff;
+}

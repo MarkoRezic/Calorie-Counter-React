@@ -1,0 +1,329 @@
+.diary {
+    position: relative;
+    background-color: #eee;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(18, 140, 126);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 5px rgb(7, 94, 84);
+    z-index: 5;
+}
+
+.header-link {
+    margin-left: 15px;
+}
+
+.header-calendar {
+    margin-right: 15px;
+}
+
+.header-link a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-calendar .fas {
+    color: #fff;
+    font-size: 20px;
+}
+
+.pie-calendar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.date {
+    box-shadow: none !important;
+}
+
+.datum-diary {
+    justify-content: space-between !important;
+}
+
+.datum-diary .fas {
+    margin: 0 15px;
+}
+
+.datum-diary .fas:hover {
+    color: #777 !important;
+}
+
+.diary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 100%;
+}
+
+.preostale-kalorije {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.preostale-kalorije-naslov p {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.preostale-kalorije-brojevi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.broj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.broj p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.broj span {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.broj1 p {
+    color: rgb(37, 211, 102);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -1px 3px #666;
+    z-index: 5;
+    background: linear-gradient(#888, #666);
+}
+
+.footer-nav {
+    width: 33.3%;
+    height: 50px;
+}
+
+.footer-nav:hover {
+    background: linear-gradient(#777, #666);
+}
+
+.footer-nav:hover .fas,
+.footer-nav .fas:hover {
+    color: #ddd !important;
+}
+
+.footer-nav:hover p,
+.footer-nav p:hover {
+    color: #ddd !important;
+}
+
+.footer-nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+    color: #bbb;
+}
+
+.footer-nav .fas {
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: #bbb;
+}
+
+.footer-nav p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer1 .fas,
+.footer1 p {
+    color: #25d366 !important;
+}
+
+.diary-div {
+    box-shadow: 0 1px 5px #666;
+}
+
+.unos-hrane:not(:last-child) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.ostalo {
+    margin-bottom: 65px;
+}
+
+.jelo-kalorije {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 49px;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    overflow: hidden;
+}
+
+.jelo-kalorije p {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.jelo-kalorije span {
+    margin-right: 15px;
+}
+
+.hrana-kolicina-kalorije {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #999;
+}
+
+.hrana-kolicina-kalorije:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.hrana-kolicina-kalorije a {
+    width: 100%;
+    padding: 25px 0;
+    text-decoration: none;
+}
+
+.hrana-kolicina-kalorije a:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+.hrana-kolicina {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hrana-kolicina p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.hrana-kolicina span {
+    color: #888;
+}
+
+.kalorije-jelo {
+    margin-right: 15px;
+}
+
+.dodaj-hranu p {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    color: #25d366;
+}
+
+.postavke {
+    margin-top: 15px;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eee;
+    box-shadow: 0 0 7px #ccc;
+    padding: 15px 20px;
+}
+
+.modal-title p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rucni-unos p {
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: none;
+}
+
+.modal-input {
+    justify-content: center !important;
+    border-bottom: none !important;
+}
+
+.modal-potvrda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.modal-potvrda .tipka-no-color a {
+    color: #25d366;
+    margin-right: 15px;
+}
+
+.spol-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.spol-modal-izbor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

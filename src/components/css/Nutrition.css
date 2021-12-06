@@ -1,0 +1,147 @@
+.nutrition-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.nutr-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nutr-title-1 {
+    width: 15%;
+    text-align: center;
+}
+
+.nutr-title-1 p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.nutr-ostalo {
+    margin-right: 15px;
+}
+
+.nutr-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nutr-content-top {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nutr-content-top p {
+    font-size: 14px;
+}
+
+.nutr-content-top-name {
+    width: 50%;
+    text-align: left;
+}
+
+.nutr-brojevi {
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nutr-content-top-name p {
+    padding: 0 15px;
+    margin: 10px auto 5px auto;
+}
+
+.nutr-content-top-number {
+    width: 100%;
+    text-align: center;
+}
+
+.nutr-content-top-number p {
+    margin: 10px auto 5px auto;
+}
+
+.nutr-minus p {
+    color: red;
+}
+
+.nutr-content-bottom {
+    width: 100%;
+    height: 5px;
+    position: relative;
+}
+
+.nutr-line {
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 5px;
+    top: 50%;
+    left: 15px;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.nutr-line-inside {
+    min-width: 0%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.lajna {
+    width: 100%;
+    height: 0.5px;
+    background-color: #999;
+    margin-top: 10px;
+}
+
+.proteini-line {
+    background-color: purple;
+    width: 50%;
+}
+
+.ugljikohidrati-line {
+    background-color: rgb(4, 192, 151);
+    width: 68%;
+}
+
+.masti-line {
+    background-color: red;
+    width: 100%;
+}
+
+.ostalo-line {
+    background-color: #444;
+    width: 70%;
+}
+
+.line1 {
+    width: 18%;
+}
+
+.line2 {
+    width: 7%;
+}
+
+.line3 {
+    width: 14%;
+}
+
+.line4 {
+    width: 1%;
+}

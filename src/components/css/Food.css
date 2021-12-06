@@ -1,0 +1,216 @@
+.header-uredi {
+    background-color: rgb(18, 140, 126);
+    box-shadow: 0 1px 5px rgb(7, 94, 84);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icon-edit {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-icon .fa-arrow-left {
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+
+.header-edit p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.ukloni-spremi {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-ukloni .fas {
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.header-spremi .fas {
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+
+.uredi-podaci {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 1px 5px #666;
+    margin-bottom: 15px;
+}
+
+.naziv-hrane {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #999;
+}
+
+.mar p {
+    margin-left: 15px;
+}
+
+.naziv-hrane p {
+    font-size: 18px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+.kolicina-hrane {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #999;
+}
+
+.kolicina-hrane p {
+    font-size: 16px;
+}
+
+.kolicina-hrane input {
+    margin-right: 15px;
+    border: none;
+    background-color: #ddd;
+}
+
+.naziv-input input {
+    width: 250px;
+}
+
+.carbs-fat-protein-cal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+.carbs-fat-protein {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.vrijednost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.vrijednost p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vrijednost span {
+    font-size: 12px;
+    color: #888;
+}
+
+.v1 p {
+    color: rgb(4, 192, 151);
+}
+
+.v2 p {
+    color: red;
+}
+
+.v3 p {
+    color: purple;
+}
+
+.uredi-cal {
+    margin-right: 15px;
+}
+
+.vrijednost2 {
+    margin-right: 0;
+}
+
+.vrijednost2 p {
+    font-size: 18px;
+}
+
+.secer-vlakna-sol {
+    box-shadow: 0 1px 5px #666;
+}
+
+.kolicina-hrane span {
+    margin-right: 15px;
+}
+
+.pretrazi {
+    width: 100%;
+    text-align: center;
+}
+
+.pretrazi input {
+    width: 90%;
+    height: 40px;
+    margin: 15px 0 5px 15px;
+    border: none;
+    background-color: #ddd;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    padding: 0 10px;
+}
+
+.povijest-hrana {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.povijest-pretrazi {
+    margin-left: 15px;
+}
+
+.povijest-pretrazi p,
+.moja-hrana-pretrazi p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 14px 10px 11px 10px;
+    box-shadow: inset 0px -3px #fff;
+}
+
+.povijest-pretrazi p {
+    box-shadow: inset 0px -3px #25d366 !important;
+    color: #25d366 !important;
+}
+
+.povijest-pretrazi p:hover,
+.moja-hrana-pretrazi p:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.nutr-title p {
+    font-weight: bold;
+    text-transform:capitalize;
+}

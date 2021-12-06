@@ -1,0 +1,68 @@
+.header-edit-progress {
+    height: 50px;
+}
+
+.header-edit-progress select {
+    width: 150px !important;
+    color: #fff;
+    background-color: #128C7E;
+    border: none;
+    box-shadow: none;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header-edit-progress select:hover {
+    color: #eee;
+}
+
+.datum {
+    justify-content: center;
+}
+
+.datum span {
+    margin: 0 !important;
+    margin-top: 5px !important;
+}
+
+.datum .fas {
+    margin: 0 15px;
+    color: #333;
+    margin-top: 5px !important;
+}
+
+.datum .fas:hover {
+    color: #777 !important;
+}
+
+.napredak-content {
+    padding: 15px 0;
+}
+
+.napredak-content p {
+    margin: 0;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.napredak-margin {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.napredak-margin img {
+    width: 95%;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.napredak-margin-zadnji {
+    margin-bottom: 65px;
+}
+
+.napredak-glavno {
+    overflow-x: hidden;
+}
